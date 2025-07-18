@@ -8,6 +8,7 @@ package Iterator;
  *
  * @author Loiola
  */
-public class NameCollection {
-    
+public interface NameCollection {
+
+    Iterator createIterator();
 }
