@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Iterator;
+package br.edu.ifnmg.lfgl.seminarioiterator;
 
 /**
  *
@@ -19,7 +19,7 @@ public class NameListIterator implements Iterator {
 
     @Override
     public boolean hasNext() {
-        return indice < nomes.length; 
+        return indice < nomes.length;
     }
 
     @Override
