@@ -8,7 +8,8 @@ package br.edu.ifnmg.lfgl.seminario;
  *
  * @author Loiola
  */
-public class NameListIterator implements Iterator {
+public class NameListIterator 
+        implements Iterator {
 
     private String[] nomes;
     private int indice = 0;
