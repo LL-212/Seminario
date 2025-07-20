@@ -1,7 +1,9 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
-package br.edu.ifnmg.lfgl.seminarioiterator;
+package br.edu.ifnmg.lfgl.seminario;
+
+import java.util.Scanner;
 
 /**
  *
@@ -17,5 +19,20 @@ public class Client {
             System.out.println("> " + iterator.next());
         }
 
+        
+        Scanner pausa = new Scanner(System.in);
+
+        pausa.nextLine();
+
+        Dialog dialog = new Dialog();
+        SaveButton salvar = new SaveButton();
+        CancelButton cancelar = new CancelButton();
+
+        dialog.registerComponents(salvar, cancelar);
+
+        salvar.click();
+
+        cancelar.click();
     }
+
 }
